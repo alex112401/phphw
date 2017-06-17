@@ -1,0 +1,70 @@
+<HTML>
+	<title>活動報名表</title>
+
+	<head>
+		
+		<center><FONT SIZE=10 COLOR=grey>活動報名表</FONT></center>
+
+	</head>
+
+	<body bgcolor="skyblue">
+		
+		本次活動內容有：
+		<ol>
+			<li>111</li>
+			其中有：
+				<ul>
+					<li>aaa</li>
+					<li>bbb</li>
+					<li>ccc</li>
+				</ul>
+			<li>222</li>
+			<li>333</li>
+		</ol>
+
+
+		<form action="active-result.php" method="post">
+
+		你是誰？
+		<input type="text" name="uname" value="請輸入姓名"><br>
+		<br>
+		男生或女生？
+		<input type="radio" name="gender" value="男生">男生
+		<input type="radio" name="gender" value="女生">女生<br>
+		<br>
+		你的身分證：
+		<input type="password" name="ID"><br>
+		<br>
+		你從哪裡來？
+		<select name="list">
+			<option>北部</option>
+			<option>中部</option>
+			<option>南部</option>
+			<option>離島</option>
+		</select><br>
+		<br>
+		你的興趣：
+		<input type="checkbox" name="inter[]" value="exe">運動
+		<input type="checkbox" name="inter[]" value="listen">聽音樂
+		<input type="checkbox" name="inter[]" value="trivago">旅遊
+		<input type="checkbox" name="inter[]" value="surf">上網
+		<br>
+		<br>
+		對於活動有什麼建議嗎？<br>
+		<textarea name="sugest" rows="10" cols="50"></textarea><br>
+		<br>
+		<input type="submit" value="送出">
+		<br>
+		<br>
+		<br>
+		感謝您的耐心填寫，有興趣可以參考：
+		<a href="http://www.nuk.edu.tw/bin/home.php">
+		<h3>高雄大學首頁</h3>
+		<br>
+		<br>
+		<a href="#top">Back to top</a>
+
+
+	</body>
+
+</HTML>
